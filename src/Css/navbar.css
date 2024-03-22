@@ -1,0 +1,65 @@
+nav {
+    width: 1200px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    gap: 241px;
+    margin-bottom: 50px;
+}
+
+nav .Links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 488px;
+    height: 27px;
+    gap: 53.5px;
+    list-style-type: none;
+    font-size: 18px;
+    font-family: "Poppins";
+    font-weight: 600;
+    cursor: pointer;
+}
+
+nav .btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+nav .btns button {
+    font-size: 18px;
+    padding: 5px;
+    width: 82px;
+    height: 35px;
+    font-family: "Poppins";
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+nav .btns .signIn {
+    background-color: transparent;
+    border: none;
+}
+
+nav .btns .login {
+    background-color: #222831;
+    border: none;
+    color: #EEEEEE;
+    border-radius: 15px;
+}
+
+nav .btns .login:hover {
+    background-color: #31363F;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
